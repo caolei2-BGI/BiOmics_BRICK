@@ -17,12 +17,12 @@
 We aims to interpret the analysis result of Cell-omics data analysis. Thus, we proposed **BiOmics-BRICK**, a novel and custom-engineered toolchain that unifies fragmented interpretive utilities into a seamless reasoning-to-prediction interface.
 
 BiOmics-BRICK offers a modular, pluggable toolchain to overcome bioinformatic interoperability bottlenecks. BiOmics-BRICK is composed of six pluggable tool modules: Data Preprocessing, Querying, Ranking, Reasoning, Representation Learning (Embedding), and Visualization. The Agent assembles tools from each module on demand according to user needs, forming an end-to-end pipeline that couples omics analysis results with prior knowledge in the knowledge graph in real-time, efficiently distilling key information and potential biological discoveries. The specific modules are:
-• Data Processing Module: Implements format conversion between omics data and queried knowledge results, data preprocessing, construct unified sub-graph, and autonomous bioinformatic execution.
-• Query Module: Responsible for diversified retrieval of associated entities, relations, neighbor nodes, and paths in the graph using differential expressed genes, variant sites, or protein nodes as anchors.
-• Ranking Module: Filters and recommends candidate results based on statistical significance or prior weights.
-• Reasoning Module: Transforms prediction tasks into classification or enrichment problems and construct inference trajectory to recommend potential high-value knowledge.
-• Embedding Module: Jointly embeds omics data sub-graph and knowledge sub-graph via graph neural networks, achieving association prediction by completing unknown relationships in the joint graph.
-• Visualization Module: Reconstructs key visualizations of analysis results, achieving intuitive and simultaneous presentation of data itself and knowledge interpretation results.
+- Data Processing Module: Implements format conversion between omics data and queried knowledge results, data preprocessing, construct unified sub-graph, and autonomous bioinformatic execution.
+- Query Module: Responsible for diversified retrieval of associated entities, relations, neighbor nodes, and paths in the graph using differential expressed genes, variant sites, or protein nodes as anchors.
+- Ranking Module: Filters and recommends candidate results based on statistical significance or prior weights.
+- Reasoning Module: Transforms prediction tasks into classification or enrichment problems and construct inference trajectory to recommend potential high-value knowledge.
+- Embedding Module: Jointly embeds omics data sub-graph and knowledge sub-graph via graph neural networks, achieving association prediction by completing unknown relationships in the joint graph.
+- Visualization Module: Reconstructs key visualizations of analysis results, achieving intuitive and simultaneous presentation of data itself and knowledge interpretation results.
 
 
 ## Related work
@@ -45,4 +45,5 @@ BRICK is a crucial part of **BiOmics**, A Foundational Bio-Reasoning Agent for T
 	journal = {bioRxiv}
 }
 ```
+
 
